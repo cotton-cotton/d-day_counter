@@ -1,0 +1,30 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap");
+body {
+	font-family: "Akaya Kanadaka", cursive;
+	background: linear-gradient(#caf5f3, #e01e1e);
+	height: 100vh;
+}
+
+.christmas {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 300px;
+}
+i {
+	padding: 0px 10px;
+}
+#banner {
+	position: fixed;
+	font-size: 50px;
+	color: rgb(63, 24, 17);
+}
+#clock {
+	position: fixed;
+	font-size: 40px;
+	top: 350px;
+	letter-spacing: 2px;
+	color: rgb(63, 24, 17);
+}
